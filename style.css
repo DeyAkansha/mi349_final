@@ -1,0 +1,141 @@
+body{
+    background-color: #e4ecec;
+}
+
+img{
+  width: 400px;
+  height:250px; 
+  border-radius: 20px;
+
+}
+
+h1{
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+  font-size: 30px;
+  font-weight: bold;
+  color: purple; 
+}
+
+h2{
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+}
+
+.avatar{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 500px;
+    float: left;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(170, 162, 162);
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+    font-size: 35px;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    padding: 14px;
+    text-decoration: solid;
+  }
+  
+  li a:hover {
+    background-color: rgb(75, 73, 73);
+  }
+
+/* Food images css */
+
+.row1{
+  padding: 10px;
+  margin: 30px;
+  width: 29%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #555;
+
+}
+ .first-images{
+   display: flex;
+   align-items: center; 
+ }
+
+ .row2{
+  padding: 10px;
+  margin: 30px;
+  width: 28%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #555;
+
+}
+
+ .second-images{
+  display: flex;
+  align-items: center; 
+}
+
+.Sign-up-message{
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+  font-size: 30px;
+  font-weight: bold;
+  color: purple; 
+
+}
+.floatleft-img{
+  float:left;
+  padding-right: 30px;
+
+}
+.article1{
+  margin-right:20px;
+}
+.floatright-img{
+  float:right;
+  padding-left: 30px;
+}
+
+.second-article{
+  margin-top: 90px;
+}
+
+.info{
+  font-size: 20px;
+  color:rgb(75, 73, 73);
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+}
+
+.Name-info{
+  margin-top: 10px;
+  margin-left: 45px;
+  align-items: center;
+}
+.Email-info{
+  margin-top: 10px;
+  margin-left: 45px;
+  align-items: center;
+}
+label{
+  font-size: 28px;
+}
+button{
+  background-color: purple;
+  color: white;
+  margin-top: 20px;
+  margin-left: 125px;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+  border-radius: 30px;
+  font-size: 30px;
+}
