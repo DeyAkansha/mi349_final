@@ -6,6 +6,7 @@ img{
   width: 400px;
   height:250px; 
   border-radius: 20px;
+  object-fit: cover;
 
 }
 
@@ -138,4 +139,54 @@ button{
   font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
   border-radius: 30px;
   font-size: 30px;
+}
+.intro{
+  display: flex;
+  /* padding: 10px;
+  margin: 30px; */
+}
+.intro-picture{
+  margin-right: 10px;
+  height: 300px;
+  width: 300px;
+  border-radius: 80px;
+}
+
+.header{
+  text-align: center;
+  font-style: Italic;
+  color: Black;
+  font-size: 40px;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+  text-shadow: 2px 2px purple;
+}
+
+.about{
+  
+  align-items: center;
+}
+
+.about-img{
+  height: 400px;
+  width: 400px;
+  border-radius: 0px;
+  display: block;
+  margin: auto;
+}
+
+.about-info{
+  text-align: center;
+}
+
+p{
+  font-family:'Comic Sans MS', 'Comic Sans', 'cursive';
+  font-size: 35px;
+}
+
+.Hi{
+  font-size: 40px;
+}
+
+button:hover {
+  background-color: rgb(75, 73, 73);
 }
